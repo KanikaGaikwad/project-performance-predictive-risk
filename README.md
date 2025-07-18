@@ -110,19 +110,12 @@ The insights and predictive capabilities of this solution are projected to deliv
 ```
 .
 ├── data/
-
 │   ├── initial_project_tasks.csv      # Raw/initial simulated task data
-
 │   └── project_tasks_for_power_bi.csv # Cleaned, feature-engineered, and predicted data for Power BI
-
 ├── notebooks/
-
 │   └── project_data_pipeline.ipynb    # Python script/Jupyter notebook for data prep, ML, and prediction
-
 ├── powerbi/
-
 │   └── Project_Performance_Dashboard.pbix # Power BI dashboard file
-
 └── README.md
 ```
 *Note: The Python script file name used here is ```project_data_pipeline.ipynb```. Please update this if your actual file name is ```Clickup_Data_prep.ipynb``` or something else.*
