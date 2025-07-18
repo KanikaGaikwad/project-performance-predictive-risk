@@ -103,7 +103,8 @@ The insights and predictive capabilities of this solution are projected to deliv
 - **12-18% Mitigation of Timeline & Budget Risks:** By leveraging predictive insights from the Random Forest model and SHAP interpretability to facilitate proactive resource allocation and early bottleneck identification.
 
 ## 📁 Project Structure
-'''
+
+```
 .
 ├── data/
 
@@ -120,26 +121,25 @@ The insights and predictive capabilities of this solution are projected to deliv
 │   └── Project_Performance_Dashboard.pbix # Power BI dashboard file
 
 └── README.md
-'''
-
+```
 <*Note: The Python script file name used here is project_data_pipeline.ipynb. Please update this if your actual file name is Clickup_Data_prep (3).ipynb or something else.*>
 
 ## ▶️ How to Use/View
 1. **Clone the Repository:**
-'''
-git clone [your-repo-url]
-cd [your-repo-name]
-'''
+```
+git clone [https://github.com/KanikaGaikwad/project-performance-predictive-risk.git]
+cd [project-performance-predictive-risk]
+```
 
 2. **Prepare Data:**
 
-- Ensure your initial data (initial_project_tasks.csv) is placed in the data/ directory.
+- Ensure your initial data (```initial_project_tasks.csv```) is placed in the data/ directory.
 
-- Run the Python notebook (notebooks/project_data_pipeline.ipynb) to process the data and generate project_tasks_for_power_bi.csv.
+- Run the Python notebook (notebooks/project_data_pipeline.ipynb) to process the data and generate ```project_tasks_for_power_bi.csv```, ```dim_assignees.csv```, and ```dim_task_types.csv```.
 
 3. **View Dashboard:**
 
-- Open powerbi/Project_Performance_Dashboard.pbix using Power BI Desktop.
+- Open ```powerbi/Project_Performance_Dashboard.pbix``` using Power BI Desktop.
 
 - Refresh the data source if prompted to ensure the latest processed data is loaded.
 
