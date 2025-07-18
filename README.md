@@ -30,7 +30,9 @@ This dashboard offers a comprehensive view of current and historical project per
 
 - Identification of current bottlenecks and high-impact areas.
 
-<<Replace this with your actual diagnostic dashboard screenshot path.>>
+![Image_Alt](https://github.com/KanikaGaikwad/project-performance-predictive-risk/blob/41f1b8ac1dbc3bc75306d6ac5212e438a9622045/Performance%20Dashboard%201.png)
+![Image_Alt](https://github.com/KanikaGaikwad/project-performance-predictive-risk/blob/bdcd61e21b0dfc84d4443ffeea6ad1584b4d8379/Performance%20Dashboard%202.png)
+
 
 ### 2. Predictive Project Risk Analysis (Predictive Insights Dashboard)
 This dashboard utilizes machine learning to forecast which tasks are most likely to become overdue, enabling proactive risk mitigation and resource reallocation.
@@ -45,9 +47,10 @@ This dashboard utilizes machine learning to forecast which tasks are most likely
 
 - Detailed table of high-risk tasks for immediate action.
 
-- Insights into feature importance (e.g., impact of days_since_last_update, percentage_completion).
+- Insights into feature importance (e.g., ```impact of days_since_last_update```, ```percentage_completion```).
 
-<Replace this with your actual predictive dashboard screenshot path.>
+![Image_Alt](https://github.com/KanikaGaikwad/project-performance-predictive-risk/blob/8c5118978bef56b12b5b21dcc7231ad0fa6cee6f/Predictive%20Dashboard%201.png)
+![Image_Alt](https://github.com/KanikaGaikwad/project-performance-predictive-risk/blob/8c5118978bef56b12b5b21dcc7231ad0fa6cee6f/Predictive%20Dashboard%202.png)
 
 ## ⚙️ Methodology & Technologies
 This project follows a robust data science lifecycle, from data acquisition and cleaning to predictive modeling and interactive visualization.
@@ -59,30 +62,30 @@ Data Source: Simulated project management task data, designed to mimic real-worl
 
 - **Data Loading:** Ingesting raw task data.
 
-- **Data Cleaning:** Standardizing categorical fields (status, priority, blocker_reason, quality_review_status), handling missing values, and ensuring data consistency.
+- **Data Cleaning:** Standardizing categorical fields (```status```, ```priority```, ```blocker_reason```, ```quality_review_status```), handling missing values, and ensuring data consistency.
 
 - **Feature Engineering:** Creating critical analytical features such as:
 
-  - is_overdue (Target variable)
+  - ```is_overdue``` (Target variable)
 
-  - cycle_time_days
+  - ```cycle_time_days```
 
-  - days_since_last_update
+  - ```days_since_last_update```
 
-  - time_to_start_days
+  - ```time_to_start_days```
 
-  - has_predecessor
+  - ```has_predecessor```
 
-  - has_due_date
+  - ```has_due_date```
 
-  - cost_of_rework, cost_of_delay, total_actual_cost (simulated financial metrics)
+  - ```cost_of_rework```, ```cost_of_delay```, ```total_actual_cost``` (simulated financial metrics)
 
 - Preprocessing: Scaling numerical features (MinMaxScaler) and encoding categorical features (OneHotEncoder).
 
 ### Machine Learning Model
 - **Model Type:** Random Forest Classifier
 
-- **Training:** The model is trained on the prepared dataset to predict the is_overdue status of tasks. class_weight='balanced' was used to address potential class imbalance.
+- **Training:** The model is trained on the prepared dataset to predict the ```is_overdue``` status of tasks. ```class_weight='balanced'``` was used to address potential class imbalance.
 
 - **Interpretability:** SHAP (SHapley Additive exPlanations) values were used to interpret model predictions, providing insights into which features drive a task's likelihood of being overdue. This enables prescriptive actions.
 
@@ -122,7 +125,7 @@ The insights and predictive capabilities of this solution are projected to deliv
 
 └── README.md
 ```
-<*Note: The Python script file name used here is project_data_pipeline.ipynb. Please update this if your actual file name is Clickup_Data_prep (3).ipynb or something else.*>
+*Note: The Python script file name used here is ```project_data_pipeline.ipynb```. Please update this if your actual file name is ```Clickup_Data_prep.ipynb``` or something else.*
 
 ## ▶️ How to Use/View
 1. **Clone the Repository:**
