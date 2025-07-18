@@ -111,7 +111,9 @@ The insights and predictive capabilities of this solution are projected to deliv
 .
 ├── data/
 │   ├── initial_project_tasks.csv      # Raw/initial simulated task data
-│   └── project_tasks_for_power_bi.csv # Cleaned, feature-engineered, and predicted data for Power BI
+│   ├── project_tasks_for_power_bi.csv # Cleaned, feature-engineered, and predicted data for Power BI
+│   ├── dim_assignees.csv              # Dimension table for assignees
+│   └── dim_task_types.csv             # Dimension table for task types
 ├── notebooks/
 │   └── project_data_pipeline.ipynb    # Python script/Jupyter notebook for data prep, ML, and prediction
 ├── powerbi/
@@ -140,10 +142,47 @@ cd [project-performance-predictive-risk]
 - Refresh the data source if prompted to ensure the latest processed data is loaded.
 
 ## 🚀 Future Enhancements
-- Integration with live project management APIs (e.g., ClickUp, Jira) for real-time data updates.
+This project has established a robust foundation for project analytics. Building upon this, several key areas for future development could provide even deeper insights and further optimize project operations:
 
-- Deployment of the predictive model as a microservice for automated risk alerts.
+**1. Granular Task Analysis & Process Optimization**
+- **Objective:** To understand performance at a more granular level than task_type, by analyzing specific phases, sub-tasks, or activities within broader task categories.
 
-- Development of a web application to host the dashboards and allow user interaction without Power BI Desktop.
+- **Rationale:** High-level task types often encompass multiple internal steps. Pinpointing which specific sub-activities contribute most to delays (e.g., "Data Cleaning for Report X" vs. "Dashboard Design") is crucial for identifying precise process inefficiencies.
 
-- Exploration of more advanced time-series forecasting models for project completion dates.
+- **Approach:** This would likely involve:
+
+  - **Natural Language Processing (NLP):** Applying text analysis to task_name or a ```task_description``` field (if available) to extract common sub-phases or keywords.
+
+  - **Process Mining:** If more detailed timestamped data on status transitions were available, process mining techniques could visually map workflows and identify common deviations or bottlenecks.
+
+  - **Hierarchical Analysis:** Leveraging a consistently populated parent_id field to roll up performance metrics from sub-tasks to parent tasks.
+
+**2. Delegation, Workload Distribution, and Assignee Performance**
+- **Objective:** To analyze how tasks are distributed among assignees, assess individual workload, and identify potential imbalances or areas for capacity optimization.
+
+- **Rationale:** Understanding the human element (who is doing what, how much, and how efficiently) is vital for overall project flow. Individual work styles and delegation practices can significantly impact project delivery.
+
+- **Approach:** This would involve:
+
+  - Analyzing average ```time_tracked_hours```, ```cycle_time_days```, and task counts per ```assignee_id```.
+
+  - Developing metrics for workload balance across the team.
+
+  - Potentially correlating assignee performance with task types, complexity, or project.
+
+  - This analysis could also inform strategic resource allocation and training needs.
+
+**3. Advanced Predictive Modeling & Real-time Integration**
+- **Objective:** To build more sophisticated models that can forecast task delays or identify tasks at high risk of becoming overdue with even greater precision, and integrate these insights into operational workflows.
+
+- **Rationale:** Moving from reactive (diagnosing past delays) to proactive (predicting future delays) is a significant leap in project management maturity.
+
+- **Approach:**
+
+  - **Model Refinement:** Exploring more advanced machine learning models (e.g., time-series forecasting for completion dates, deep learning for complex patterns) or ensemble methods.
+
+  - **Real-time Integration:** Connecting with live project management APIs (e.g., ClickUp, Jira) for automated data updates and deploying the predictive model as a microservice for real-time risk alerts.
+
+  - **User Interface:** Developing a dedicated web application to host the dashboards and allow seamless user interaction and scenario planning without Power BI Desktop.
+
+These future enhancements would further empower data-driven decision-making, moving towards a more optimized and predictable project delivery system.
