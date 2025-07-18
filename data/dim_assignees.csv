@@ -1,0 +1,13 @@
+assignee_id,assignee_name,assignee_team,assignee_cost_per_hour
+ASS-001,Alice,Team Alpha,24.35
+ASS-002,Bob,Team Alpha,34.98
+ASS-003,Charlie,Team Alpha,32.4
+ASS-004,David,Team Beta,33.35
+ASS-005,Eve,Team Beta,42.34
+ASS-006,Frank,Team Beta,35.37
+ASS-007,Grace,Team Gamma,33.25
+ASS-008,Heidi,Team Gamma,23.04
+ASS-009,Ivan,Team Gamma,47.28
+ASS-010,Judy,Team Delta,43.34
+ASS-011,Karl,Team Delta,44.31
+ASS-012,Liam,Team Delta,31.4

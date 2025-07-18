@@ -1,0 +1,274 @@
+task_id,parent_id,project_name,task_name,status,percentage_completion,date_created,start_date,due_date,date_completed,time_tracked_hours,task_type,complexity_points,priority,blocker_reason,quality_review_status,last_updated_date,predecessor_task_id,assignee_id
+T-00001,,Holiday Marketing Campaign - Social Media Focus,Deployment Script - T-00001,todo,,2024-09-12,2024-09-18,2024-10-14,,,Deployment & Release,3,High,,,2025-07-02,,ASS-006
+T-00002,T-00001,Customer Onboarding Flow Optimization,Data Collection Setup - T-00002,Review,,2024-07-19,2024-07-24,2024-08-23,2024-08-21,11.6,Analytics & Reporting,1,Low,,,2025-07-02,,ASS-009
+T-00003,,Q3 Product Feature Launch - AI Integration,Performance Report - T-00003,Review,100.0,2024-11-13,2024-11-13,2024-11-24,2024-11-27,32.6,Analytics & Reporting,3,Critical,,,2025-07-04,,ASS-012
+T-00004,T-00003,Customer Onboarding Flow Optimization,Wireframe Creation - T-00004,To Do,0.0,2025-03-06,2025-03-07,2025-04-20,,0.0,Design & UX,2,Critical,,,2025-07-03,,ASS-006
+T-00005,T-00004,Q3 Product Feature Launch - AI Integration,Integration Testing - T-00005,To Do,0.0,2024-08-08,2024-08-08,2024-08-28,,,QA & Testing,5,Low,,,2025-06-29,,ASS-011
+T-00006,T-00003,Q3 Product Feature Launch - AI Integration,Database Schema Update - T-00006,Completed,100.0,2024-09-29,2024-10-04,2024-11-23,2024-11-26,,Development (Backend),1,Low,,Major Rework,2025-07-03,,ASS-011
+T-00007,T-00006,Customer Onboarding Flow Optimization,Frontend Bug Fix - T-00007,completed.,100.0,2025-03-04,2025-03-05,2025-03-22,2025-03-18,5.5,Development (Frontend),5,High,,,2025-07-06,T-00002,ASS-011
+T-00008,T-00006,Internal Tool Development - Automation Suite,User Testing - T-00008,REVIEW,100.0,2024-12-01,2024-12-04,2025-01-22,2025-01-17,12.4,Design & UX,1,High,,Minor Rework,2025-06-23,,ASS-012
+T-00009,T-00006,Holiday Marketing Campaign - Social Media Focus,Compliance Check - T-00009,To Do,0.0,2024-12-16,2024-12-16,2025-01-11,,,Legal & Compliance Review,3,low,,,2025-06-28,,ASS-008
+T-00010,,Holiday Marketing Campaign - Social Media Focus,Performance Report - T-00010,To Do,0.0,2025-02-28,2025-03-06,2025-04-03,,0.0,Analytics & Reporting,2,Medium,,,2025-07-05,,ASS-004
+T-00011,,Website Redesign - User Experience Overhaul,API Endpoint Creation - T-00011,To Do,,2025-04-07,2025-04-09,,,0.0,Development (Backend),4,High,,,2025-07-06,,ASS-006
+T-00012,,Website Redesign - User Experience Overhaul,Risk Assessment - T-00012,in progress,56.8,2024-11-10,2024-11-16,2024-12-15,,6.9,PMO & Coordination,2,Low,,,2025-06-23,,ASS-011
+T-00013,T-00012,Q3 Product Feature Launch - AI Integration,Compliance Check - T-00013,Blocked,70.3,2024-09-18,2024-09-25,2024-11-10,,8.9,Legal & Compliance Review,1,High,,,2025-06-23,T-00004,ASS-012
+T-00014,T-00012,Customer Onboarding Flow Optimization,Performance Tuning - T-00014,REVIEW,100.0,2024-10-06,2024-10-10,,2024-11-23,,Development (Backend),5,Medium,,Minor Rework,2025-06-29,,ASS-004
+T-00015,T-00014,Holiday Marketing Campaign - Social Media Focus,Campaign Launch - T-00015,Review,,2024-10-15,2024-10-21,2024-11-18,2024-11-16,5.7,Marketing & Promotion,2,Low,,Failed QA,2025-06-24,,ASS-011
+T-00016,T-00014,Internal Tool Development - Automation Suite,Define Objectives - T-00016,in progress,,2025-03-25,2025-03-28,,,16.7,Strategy & Planning,3,High,,,2025-06-30,T-00006,ASS-007
+T-00017,T-00014,Holiday Marketing Campaign - Social Media Focus,Database Schema Update - T-00017,Review,100.0,2025-01-09,2025-01-12,2025-02-26,2025-03-05,28.2,Development (Backend),2,Low,,,2025-07-05,,ASS-011
+T-00018,T-00012,Holiday Marketing Campaign - Social Media Focus,Performance Tracking - T-00018,To Do,0.0,2025-02-16,2025-02-19,2025-03-11,,0.0,Marketing & Promotion,1,Low,,,2025-07-02,,ASS-011
+T-00019,T-00012,Internal Tool Development - Automation Suite,Frontend Bug Fix - T-00019,Completed,100.0,2025-02-25,2025-02-27,2025-04-19,2025-04-25,25.0,Development (Frontend),3,Low,,Failed QA,2025-06-25,,ASS-003
+T-00020,T-00019,Internal Tool Development - Automation Suite,Performance Report - T-00020,Review,100.0,2025-01-24,2025-01-24,2025-02-03,,17.5,Analytics & Reporting,4,high,,,2025-06-30,,ASS-002
+T-00021,T-00019,Website Redesign - User Experience Overhaul,Training Material - T-00021,Review,100.0,2025-01-04,2025-01-06,2025-01-22,2025-01-27,8.2,Customer Support Prep,5,Medium,,,2025-07-02,,ASS-006
+T-00022,,Customer Onboarding Flow Optimization,Integration Testing - T-00022,todo,0.0,2024-10-14,2024-10-20,2024-11-29,,,QA & Testing,1,Low,,,2025-06-26,,ASS-012
+T-00023,T-00022,Internal Tool Development - Automation Suite,Market Research - T-00023,Blocked,52.3,2025-01-26,2025-01-30,2025-03-01,,,Strategy & Planning,4,Critical,Technical Bug Found,,2025-06-23,,ASS-011
+T-00024,T-00023,Q3 Product Feature Launch - AI Integration,Review Ad Copy - T-00024,Blocked,33.0,2024-07-24,2024-07-27,2024-10-09,,7.0,Legal & Compliance Review,3,medium,,,2025-06-24,T-00006,ASS-007
+T-00025,T-00023,Customer Onboarding Flow Optimization,Data Collection Setup - T-00025,todo,0.0,2025-03-24,2025-03-30,2025-04-18,,0.0,Analytics & Reporting,4,High,,,2025-07-01,T-00024,ASS-009
+T-00026,,Internal Tool Development - Automation Suite,Ad Copy Draft - T-00026,To Do,0.0,2025-04-09,2025-04-13,2025-04-25,,,Content Creation,4,High,,,2025-06-24,,ASS-008
+T-00027,T-00026,Q3 Product Feature Launch - AI Integration,Performance Report - T-00027,Blocked,19.8,2025-03-30,2025-04-01,2025-05-24,,4.0,Analytics & Reporting,3,Low,,,2025-07-07,,ASS-002
+T-00028,T-00027,Holiday Marketing Campaign - Social Media Focus,Blog Article - T-00028,In Progress,84.3,2024-12-22,2024-12-26,2025-01-07,,4.0,Content Creation,2,High,,,2025-07-02,T-00006,ASS-007
+T-00029,T-00027,Website Redesign - User Experience Overhaul,Campaign Launch - T-00029,in progress,,2025-03-22,2025-03-26,2025-04-04,,19.2,Marketing & Promotion,3,Critical,,,2025-06-26,,ASS-010
+T-00030,T-00027,Internal Tool Development - Automation Suite,Post-Launch Monitoring Setup - T-00030,Review,100.0,2025-03-06,2025-03-06,,,8.7,Deployment & Release,3,High,,,2025-06-30,,ASS-004
+T-00031,T-00027,Q3 Product Feature Launch - AI Integration,Dashboard Build - T-00031,Review,100.0,2024-07-26,2024-07-28,2024-08-29,,7.8,Analytics & Reporting,3,Medium,,,2025-06-27,T-00021,ASS-002
+T-00032,T-00026,Website Redesign - User Experience Overhaul,Market Research - T-00032,To Do,0.0,2024-12-16,2024-12-19,2025-01-30,,0.0,Strategy & Planning,2,High,,,2025-06-27,,ASS-002
+T-00033,T-00032,Q3 Product Feature Launch - AI Integration,Training Material - T-00033,Blocked,54.3,2025-01-29,2025-02-03,2025-02-21,,1.9,Customer Support Prep,2,High,,,2025-06-28,,ASS-010
+T-00034,T-00032,Website Redesign - User Experience Overhaul,Contract Approval - T-00034,Completed,100.0,2024-08-22,2024-08-27,2024-10-22,2024-07-23,,Legal & Compliance Review,2,Critical,,,2025-07-07,,ASS-003
+T-00035,T-00026,Website Redesign - User Experience Overhaul,User Testing - T-00035,Blocked,,2024-12-25,2024-12-29,2025-02-09,,,Design & UX,4,Medium,Resource Unavailability,,2025-07-05,,ASS-005
+T-00036,T-00026,Internal Tool Development - Automation Suite,Blog Article - T-00036,To Do,,2025-02-01,2025-02-01,2025-03-01,,0.0,Content Creation,2,High,,,2025-07-03,,ASS-002
+T-00037,T-00036,Customer Onboarding Flow Optimization,Review Ad Copy - T-00037,To Do,0.0,2024-11-21,2024-11-28,2024-12-29,,0.0,Legal & Compliance Review,2,low,,,2025-06-29,,ASS-009
+T-00038,T-00036,Holiday Marketing Campaign - Social Media Focus,Unit Testing - T-00038,in progress,33.0,2024-09-13,2024-09-20,,,11.8,QA & Testing,3,Medium,,,2025-06-30,T-00013,ASS-009
+T-00039,T-00036,Q3 Product Feature Launch - AI Integration,Stakeholder Sync - T-00039,In Progress,47.7,2024-08-03,2024-08-07,2024-08-23,,5.5,PMO & Coordination,4,High,,,2025-07-01,,ASS-003
+T-00040,,Website Redesign - User Experience Overhaul,Support Handoff - T-00040,Completed,100.0,2025-03-10,2025-03-11,2025-04-09,2025-04-15,8.1,Customer Support Prep,3,medium,,,2025-06-27,,ASS-009
+T-00041,T-00040,Q3 Product Feature Launch - AI Integration,Dependency Management - T-00041,To Do,0.0,2024-12-28,2024-12-30,2025-02-18,,,PMO & Coordination,3,Medium,,,2025-07-01,,ASS-002
+T-00042,T-00041,Q3 Product Feature Launch - AI Integration,Dependency Management - T-00042,Review,100.0,2025-03-03,2025-03-04,,2025-03-19,27.5,PMO & Coordination,1,Critical,,Failed QA,2025-06-29,,ASS-010
+T-00043,T-00041,Holiday Marketing Campaign - Social Media Focus,UAT Coordination - T-00043,In Progress,70.7,2025-03-27,2025-04-02,2025-04-15,,13.5,QA & Testing,2,Medium,,,2025-07-04,,ASS-008
+T-00044,T-00041,Website Redesign - User Experience Overhaul,Support Handoff - T-00044,completed.,100.0,2024-11-02,2024-11-06,2024-11-29,2024-11-26,17.5,Customer Support Prep,5,Medium,,,2025-06-25,,ASS-004
+T-00045,T-00041,Internal Tool Development - Automation Suite,Performance Tuning - T-00045,In Progress,46.0,2024-09-01,2024-09-03,2024-09-11,,20.4,Development (Backend),4,High,,,2025-06-28,,ASS-005
+T-00046,,Internal Tool Development - Automation Suite,Integrate API - T-00046,Completed,100.0,2024-12-13,2024-12-17,,2025-01-23,37.5,Development (Frontend),3,Critical,,,2025-07-07,,ASS-003
+T-00047,T-00046,Q3 Product Feature Launch - AI Integration,Post-Launch Monitoring Setup - T-00047,In Progress,33.4,2025-04-17,2025-04-20,2025-05-20,,17.3,Deployment & Release,4,Medium,,,2025-07-02,,ASS-003
+T-00048,T-00047,Customer Onboarding Flow Optimization,Define Objectives - T-00048,in progress,11.8,2024-07-27,2024-07-29,2024-08-28,,7.9,Strategy & Planning,4,medium,,,2025-06-25,,ASS-006
+T-00049,T-00047,Internal Tool Development - Automation Suite,Ad Spend Optimization - T-00049,Completed,100.0,2024-10-26,2024-10-31,2024-12-13,2024-12-10,11.5,Marketing & Promotion,1,Low,,,2025-07-05,T-00037,ASS-006
+T-00050,T-00046,Q3 Product Feature Launch - AI Integration,Build UI Component - T-00050,In Progress,46.9,2024-12-21,2024-12-23,2025-01-05,,20.5,Development (Frontend),2,Medium,,,2025-06-29,T-00045,ASS-006
+T-00051,,Internal Tool Development - Automation Suite,FAQ Document - T-00051,Review,100.0,2025-04-19,2025-04-19,2025-05-07,,8.7,Customer Support Prep,4,Low,,,2025-06-27,,ASS-004
+T-00052,T-00051,Customer Onboarding Flow Optimization,Define Objectives - T-00052,Review,100.0,2024-10-01,2024-10-05,,2024-11-14,,Strategy & Planning,3,High,,,2025-07-07,,ASS-001
+T-00053,T-00052,Q3 Product Feature Launch - AI Integration,Social Media Post - T-00053,in progress,67.9,2024-11-13,2024-11-18,2024-11-29,,10.9,Content Creation,5,Critical,,,2025-06-23,,ASS-001
+T-00054,T-00051,Website Redesign - User Experience Overhaul,Release Plan - T-00054,REVIEW,100.0,2024-10-11,2024-10-13,,,31.6,Deployment & Release,2,High,,Minor Rework,2025-07-01,,ASS-002
+T-00055,T-00051,Customer Onboarding Flow Optimization,Budget Allocation - T-00055,Review,100.0,2025-04-02,2025-04-06,2025-05-31,2025-06-04,,Strategy & Planning,2,medium,,,2025-06-29,,ASS-008
+T-00056,T-00051,Website Redesign - User Experience Overhaul,Budget Allocation - T-00056,To Do,,2024-11-24,2024-11-29,2024-12-06,,,Strategy & Planning,2,Medium,,,2025-07-05,,ASS-011
+T-00057,T-00056,Customer Onboarding Flow Optimization,Contract Approval - T-00057,Review,100.0,2024-11-13,2024-11-19,2024-11-30,2024-12-09,34.5,Legal & Compliance Review,2,High,,Minor Rework,2025-07-06,,ASS-008
+T-00058,,Internal Tool Development - Automation Suite,Contract Approval - T-00058,Completed,100.0,2025-03-15,2025-03-21,2025-04-24,2025-04-20,,Legal & Compliance Review,2,Low,,,2025-06-25,,ASS-009
+T-00059,T-00058,Q3 Product Feature Launch - AI Integration,API Endpoint Creation - T-00059,Completed,100.0,2025-04-13,2025-04-14,2025-04-27,2025-04-27,35.6,Development (Backend),1,Critical,,Major Rework,2025-06-27,,ASS-003
+T-00060,,Q3 Product Feature Launch - AI Integration,Data Collection Setup - T-00060,Blocked,65.0,2025-03-06,2025-03-10,2025-05-21,,10.4,Analytics & Reporting,1,Medium,,,2025-07-01,,ASS-001
+T-00061,T-00060,Q3 Product Feature Launch - AI Integration,Performance Tracking - T-00061,REVIEW,100.0,2025-01-30,2025-02-01,2025-03-07,,6.2,Marketing & Promotion,5,High,,,2025-06-28,,ASS-001
+T-00062,T-00061,Internal Tool Development - Automation Suite,Integration Testing - T-00062,blocked!,26.5,2024-09-06,2024-09-09,,,,QA & Testing,5,High,,,2025-07-04,,ASS-009
+T-00063,T-00061,Holiday Marketing Campaign - Social Media Focus,Build UI Component - T-00063,To Do,0.0,2025-02-09,2025-02-09,2025-03-04,,0.0,Development (Frontend),1,Critical,,,2025-07-07,,ASS-010
+T-00064,T-00061,Internal Tool Development - Automation Suite,Performance Tuning - T-00064,To Do,0.0,2025-04-19,2025-04-20,2025-06-04,,0.0,Development (Backend),1,High,,,2025-06-24,,ASS-007
+T-00065,,Internal Tool Development - Automation Suite,Market Research - T-00065,Blocked,76.9,2024-12-17,2024-12-23,2025-01-30,,7.3,Strategy & Planning,3,Medium,,,2025-06-29,,ASS-007
+T-00066,,Q3 Product Feature Launch - AI Integration,Campaign Launch - T-00066,In Progress,12.1,2024-12-12,2024-12-19,2025-01-19,,20.4,Marketing & Promotion,2,Medium,,,2025-06-24,,ASS-007
+T-00067,T-00066,Internal Tool Development - Automation Suite,Integration Testing - T-00067,blocked!,21.2,2025-02-10,2025-02-15,2025-03-06,,6.2,QA & Testing,5,medium,Design Approval Needed,,2025-07-05,,ASS-001
+T-00068,T-00067,Holiday Marketing Campaign - Social Media Focus,Performance Report - T-00068,Completed,100.0,2025-03-23,2025-03-29,2025-05-11,2025-05-19,5.7,Analytics & Reporting,3,Critical,,,2025-07-07,,ASS-004
+T-00069,T-00066,Holiday Marketing Campaign - Social Media Focus,Budget Allocation - T-00069,Completed,100.0,2025-03-17,2025-03-23,2025-04-28,2025-04-26,31.1,Strategy & Planning,3,Medium,,,2025-06-27,,ASS-005
+T-00070,T-00069,Website Redesign - User Experience Overhaul,Blog Article - T-00070,Blocked,23.6,2024-11-02,2024-11-05,2025-01-13,,3.6,Content Creation,2,Low,,,2025-06-24,T-00066,ASS-011
+T-00071,T-00069,Q3 Product Feature Launch - AI Integration,Build UI Component - T-00071,Blocked,51.2,2024-09-04,2024-09-08,2024-11-03,,4.2,Development (Frontend),4,Medium,,,2025-06-30,,ASS-010
+T-00072,T-00069,Website Redesign - User Experience Overhaul,Budget Allocation - T-00072,Review,100.0,2025-04-16,2025-04-22,2025-05-27,,8.4,Strategy & Planning,1,High,,,2025-07-02,,ASS-004
+T-00073,T-00069,Holiday Marketing Campaign - Social Media Focus,Market Research - T-00073,Blocked,28.8,2024-11-15,2024-11-18,2025-01-07,,7.6,Strategy & Planning,5,High,,,2025-07-05,,ASS-012
+T-00074,T-00066,Internal Tool Development - Automation Suite,Compliance Check - T-00074,Blocked,5.9,2024-11-18,2024-11-25,2025-01-08,,4.7,Legal & Compliance Review,3,High,Awaiting Client Feedback,,2025-06-30,,ASS-012
+T-00075,,Q3 Product Feature Launch - AI Integration,Stakeholder Sync - T-00075,To Do,0.0,2025-04-14,2025-04-17,2025-05-04,,0.0,PMO & Coordination,3,Critical,,,2025-07-05,,ASS-011
+T-00076,T-00075,Customer Onboarding Flow Optimization,Support Handoff - T-00076,To Do,0.0,2024-12-07,2024-12-09,2024-12-26,,0.0,Customer Support Prep,5,Low,,,2025-06-30,,ASS-002
+T-00077,T-00076,Website Redesign - User Experience Overhaul,FAQ Document - T-00077,Completed,100.0,2025-01-20,2025-01-25,2025-02-10,2025-02-16,27.6,Customer Support Prep,4,Critical,,,2025-06-27,,ASS-002
+T-00078,T-00076,Holiday Marketing Campaign - Social Media Focus,Campaign Launch - T-00078,To Do,0.0,2025-01-09,2025-01-15,2025-02-27,,0.0,Marketing & Promotion,2,Critical,,,2025-06-29,,ASS-011
+T-00079,,Internal Tool Development - Automation Suite,Budget Allocation - T-00079,To Do,0.0,2024-08-13,2024-08-18,2024-08-24,,0.0,Strategy & Planning,3,High,,,2025-06-30,,ASS-010
+T-00080,T-00079,Q3 Product Feature Launch - AI Integration,Budget Allocation - T-00080,In Progress,100.0,2024-09-06,2024-09-11,2024-09-28,,10.6,Strategy & Planning,4,Critical,,,2025-07-04,,ASS-006
+T-00081,T-00080,Customer Onboarding Flow Optimization,Data Collection Setup - T-00081,todo,0.0,2025-01-01,2025-01-01,2025-02-10,,0.0,Analytics & Reporting,5,medium,,,2025-07-02,,ASS-009
+T-00082,T-00080,Holiday Marketing Campaign - Social Media Focus,UAT Coordination - T-00082,Blocked,42.2,2024-11-18,2024-11-18,2025-01-15,,0.6,QA & Testing,3,Critical,,,2025-06-27,,ASS-008
+T-00083,T-00079,Internal Tool Development - Automation Suite,Build UI Component - T-00083,To Do,0.0,2025-04-05,2025-04-09,2025-05-23,,,Development (Frontend),2,high,,,2025-06-30,,ASS-009
+T-00084,T-00083,Holiday Marketing Campaign - Social Media Focus,Support Handoff - T-00084,todo,0.0,2024-07-27,2024-08-01,2024-08-10,,0.0,Customer Support Prep,5,High,,,2025-07-01,,ASS-007
+T-00085,T-00079,Q3 Product Feature Launch - AI Integration,Campaign Launch - T-00085,Blocked,48.7,2025-02-09,2025-02-15,2025-04-03,,9.2,Marketing & Promotion,3,Low,,,2025-06-24,,ASS-010
+T-00086,T-00085,Q3 Product Feature Launch - AI Integration,Stakeholder Sync - T-00086,todo,0.0,2025-03-10,2025-03-14,2025-05-08,,0.0,PMO & Coordination,2,high,,,2025-07-04,,ASS-006
+T-00087,T-00085,Holiday Marketing Campaign - Social Media Focus,Stakeholder Sync - T-00087,blocked!,44.0,2025-03-22,2025-03-27,2025-04-14,,3.8,PMO & Coordination,1,Critical,,,2025-06-23,,ASS-001
+T-00088,,Website Redesign - User Experience Overhaul,FAQ Document - T-00088,completed.,100.0,2024-10-11,2024-10-18,,2024-12-11,,Customer Support Prep,5,Critical,,Minor Rework,2025-07-03,,ASS-007
+T-00089,T-00088,Holiday Marketing Campaign - Social Media Focus,Contract Approval - T-00089,To Do,0.0,2025-03-13,2025-03-18,2025-05-13,,0.0,Legal & Compliance Review,2,High,,,2025-07-01,,ASS-009
+T-00090,T-00089,Q3 Product Feature Launch - AI Integration,API Endpoint Creation - T-00090,In Progress,,2024-08-27,2024-09-01,2024-10-26,,23.7,Development (Backend),5,Medium,,,2025-06-30,,ASS-010
+T-00091,T-00089,Q3 Product Feature Launch - AI Integration,Compliance Check - T-00091,Review,100.0,2025-01-20,2025-01-23,2025-02-09,2025-02-19,34.7,Legal & Compliance Review,5,Medium,,,2025-06-30,,ASS-003
+T-00092,T-00089,Internal Tool Development - Automation Suite,Training Material - T-00092,in progress,47.4,2025-03-23,2025-03-27,2025-05-20,,2.6,Customer Support Prep,5,Medium,,,2025-07-07,,ASS-001
+T-00093,T-00089,Q3 Product Feature Launch - AI Integration,Performance Report - T-00093,Blocked,13.9,2025-04-12,2025-04-17,2025-05-08,,3.4,Analytics & Reporting,5,Medium,,,2025-07-01,T-00062,ASS-012
+T-00094,T-00088,Internal Tool Development - Automation Suite,Release Plan - T-00094,Completed,100.0,2025-04-25,2025-04-29,2025-06-10,2025-06-18,27.6,Deployment & Release,3,Low,,Minor Rework,2025-06-23,,ASS-012
+T-00095,T-00094,Q3 Product Feature Launch - AI Integration,Database Schema Update - T-00095,To Do,0.0,2024-10-12,2024-10-16,2024-12-03,,,Development (Backend),1,Low,,,2025-06-24,,ASS-005
+T-00096,T-00094,Internal Tool Development - Automation Suite,Post-Launch Monitoring Setup - T-00096,Review,100.0,2024-12-15,2024-12-15,2024-12-25,2024-12-28,16.6,Deployment & Release,2,High,,,2025-07-02,,ASS-007
+T-00097,T-00088,Q3 Product Feature Launch - AI Integration,Data Collection Setup - T-00097,in progress,31.0,2024-12-27,2024-12-27,,,17.5,Analytics & Reporting,2,high,,,2025-06-24,,ASS-008
+T-00098,T-00097,Holiday Marketing Campaign - Social Media Focus,Define Objectives - T-00098,In Progress,85.4,2024-09-05,2024-09-10,2024-09-16,,23.1,Strategy & Planning,3,High,,,2025-07-07,T-00070,ASS-011
+T-00099,T-00097,Website Redesign - User Experience Overhaul,Data Collection Setup - T-00099,Review,,2024-08-04,2024-08-07,2024-09-09,2024-09-12,9.5,Analytics & Reporting,5,Critical,,,2025-06-26,,ASS-006
+T-00100,T-00097,Customer Onboarding Flow Optimization,User Testing - T-00100,Review,100.0,2024-11-25,2024-11-26,2025-01-19,2025-01-23,30.3,Design & UX,5,Critical,,,2025-06-24,T-00057,ASS-003
+T-00101,,Q3 Product Feature Launch - AI Integration,User Testing - T-00101,To Do,0.0,2024-08-24,2024-08-27,2024-09-11,,,Design & UX,1,Critical,,,2025-07-01,,ASS-012
+T-00102,T-00101,Holiday Marketing Campaign - Social Media Focus,Ad Copy Draft - T-00102,To Do,0.0,2024-09-27,2024-09-29,2024-11-27,,,Content Creation,4,Critical,,,2025-07-03,,ASS-008
+T-00103,T-00102,Customer Onboarding Flow Optimization,Performance Report - T-00103,Blocked,7.9,2024-10-08,2024-10-11,2024-12-21,,12.9,Analytics & Reporting,2,Critical,,,2025-07-07,,ASS-009
+T-00104,T-00101,Website Redesign - User Experience Overhaul,Stakeholder Sync - T-00104,in progress,47.9,2025-02-15,2025-02-22,,,5.6,PMO & Coordination,4,Critical,,,2025-06-25,,ASS-011
+T-00105,T-00104,Q3 Product Feature Launch - AI Integration,API Endpoint Creation - T-00105,Completed,100.0,2024-09-18,2024-09-24,2024-11-09,2024-11-06,33.7,Development (Backend),5,Medium,,,2025-07-06,T-00069,ASS-011
+T-00106,T-00104,Internal Tool Development - Automation Suite,Review Ad Copy - T-00106,To Do,0.0,2024-11-16,2024-11-16,2024-12-19,,0.0,Legal & Compliance Review,5,High,,,2025-07-01,,ASS-005
+T-00107,T-00104,Holiday Marketing Campaign - Social Media Focus,Build UI Component - T-00107,To Do,0.0,2025-02-23,2025-03-02,,,0.0,Development (Frontend),3,Critical,,,2025-06-26,,ASS-007
+T-00108,T-00101,Holiday Marketing Campaign - Social Media Focus,Dashboard Build - T-00108,Review,100.0,2024-07-29,2024-08-04,2024-09-05,2024-09-06,17.6,Analytics & Reporting,2,Medium,,,2025-07-04,,ASS-002
+T-00109,T-00108,Q3 Product Feature Launch - AI Integration,Campaign Launch - T-00109,in progress,,2024-09-18,2024-09-22,2024-11-18,,24.6,Marketing & Promotion,3,medium,,,2025-07-07,,ASS-006
+T-00110,T-00108,Q3 Product Feature Launch - AI Integration,Integrate API - T-00110,Blocked,0.4,2024-11-04,2024-11-11,2025-02-07,,10.0,Development (Frontend),2,Medium,,,2025-06-23,,ASS-003
+T-00111,T-00108,Internal Tool Development - Automation Suite,Compliance Check - T-00111,REVIEW,100.0,2024-08-10,2024-08-16,2024-09-29,,30.7,Legal & Compliance Review,1,High,,,2025-06-29,,ASS-004
+T-00112,T-00108,Website Redesign - User Experience Overhaul,User Testing - T-00112,Review,100.0,2024-12-01,2024-12-07,2025-01-07,2025-01-03,19.5,Design & UX,5,Medium,,Passed,2025-06-23,,ASS-001
+T-00113,T-00101,Holiday Marketing Campaign - Social Media Focus,Performance Tracking - T-00113,Blocked,70.8,2024-10-05,2024-10-05,2024-11-17,,8.4,Marketing & Promotion,5,High,,,2025-07-06,T-00053,ASS-002
+T-00114,T-00113,Website Redesign - User Experience Overhaul,Social Media Post - T-00114,todo,0.0,2025-04-11,2025-04-12,2025-05-20,,0.0,Content Creation,2,CRITICAL,,,2025-06-27,T-00047,ASS-009
+T-00115,T-00113,Customer Onboarding Flow Optimization,Post-Launch Monitoring Setup - T-00115,in progress,38.1,2025-03-02,2025-03-05,2025-04-20,,24.8,Deployment & Release,3,Low,,,2025-06-25,T-00085,ASS-005
+T-00116,T-00113,Customer Onboarding Flow Optimization,Mockup Design - T-00116,Completed,100.0,2025-04-16,2025-04-22,2025-05-20,2025-05-22,24.3,Design & UX,1,Critical,,,2025-07-03,,ASS-006
+T-00117,T-00113,Holiday Marketing Campaign - Social Media Focus,Ad Spend Optimization - T-00117,blocked!,75.1,2024-09-11,2024-09-11,,,,Marketing & Promotion,1,high,,,2025-06-23,,ASS-012
+T-00118,,Website Redesign - User Experience Overhaul,Unit Testing - T-00118,in progress,71.2,2024-12-28,2024-12-29,2025-02-19,,10.3,QA & Testing,1,Low,,,2025-06-23,,ASS-002
+T-00119,T-00118,Holiday Marketing Campaign - Social Media Focus,Market Research - T-00119,Blocked,36.3,2025-03-04,2025-03-07,2025-04-25,,0.2,Strategy & Planning,1,Low,Technical Bug Found,,2025-06-28,,ASS-006
+T-00120,T-00119,Holiday Marketing Campaign - Social Media Focus,UAT Coordination - T-00120,To Do,0.0,2024-12-12,2024-12-17,2025-01-19,,0.0,QA & Testing,5,CRITICAL,,,2025-06-25,T-00057,ASS-006
+T-00121,,Internal Tool Development - Automation Suite,Budget Allocation - T-00121,Review,100.0,2025-04-05,2025-04-08,,2025-05-02,11.4,Strategy & Planning,2,Critical,,,2025-06-30,,ASS-010
+T-00122,T-00121,Internal Tool Development - Automation Suite,Training Material - T-00122,Blocked,62.3,2025-02-15,2025-02-22,2025-04-19,,3.4,Customer Support Prep,4,Low,,,2025-06-24,,ASS-003
+T-00123,T-00122,Q3 Product Feature Launch - AI Integration,Release Plan - T-00123,Blocked,12.2,2025-02-05,2025-02-06,2025-03-10,,,Deployment & Release,3,High,Technical Bug Found,,2025-06-28,,ASS-005
+T-00124,T-00122,Holiday Marketing Campaign - Social Media Focus,User Testing - T-00124,REVIEW,100.0,2024-08-07,2024-08-08,2024-09-23,,9.2,Design & UX,1,Critical,,,2025-06-23,,ASS-006
+T-00125,T-00122,Customer Onboarding Flow Optimization,Release Plan - T-00125,Blocked,18.1,2025-04-15,2025-04-15,2025-05-07,,14.8,Deployment & Release,1,Critical,,,2025-07-05,T-00011,ASS-005
+T-00126,T-00122,Customer Onboarding Flow Optimization,Compliance Check - T-00126,Review,100.0,2025-03-17,2025-03-24,2025-05-18,2025-05-28,17.1,Legal & Compliance Review,2,Critical,,Minor Rework,2025-06-25,,ASS-009
+T-00127,,Website Redesign - User Experience Overhaul,Performance Tracking - T-00127,To Do,,2024-10-31,2024-11-06,2025-01-03,,0.0,Marketing & Promotion,1,Medium,,,2025-06-30,,ASS-007
+T-00128,,Customer Onboarding Flow Optimization,Define Objectives - T-00128,To Do,0.0,2025-04-18,2025-04-19,2025-06-06,,0.0,Strategy & Planning,1,Medium,,,2025-06-30,,ASS-002
+T-00129,,Holiday Marketing Campaign - Social Media Focus,API Endpoint Creation - T-00129,Review,100.0,2024-12-23,2024-12-29,2025-01-13,2025-01-22,11.5,Development (Backend),2,High,,,2025-07-06,,ASS-005
+T-00130,,Q3 Product Feature Launch - AI Integration,Integration Testing - T-00130,Review,100.0,2025-01-11,2025-01-17,2025-03-09,2025-03-06,,QA & Testing,2,High,,Minor Rework,2025-06-26,,ASS-006
+T-00131,T-00130,Customer Onboarding Flow Optimization,Ad Spend Optimization - T-00131,To Do,,2025-01-25,2025-01-28,2025-03-22,,0.0,Marketing & Promotion,5,Medium,,,2025-06-24,T-00098,ASS-011
+T-00132,T-00131,Q3 Product Feature Launch - AI Integration,FAQ Document - T-00132,Completed,100.0,2025-02-24,2025-02-28,2025-03-30,2025-04-09,16.2,Customer Support Prep,5,High,,Minor Rework,2025-07-02,,ASS-006
+T-00133,,Internal Tool Development - Automation Suite,Risk Assessment - T-00133,Blocked,,2024-12-10,2024-12-12,,,,PMO & Coordination,5,Critical,,,2025-06-30,,ASS-007
+T-00134,,Website Redesign - User Experience Overhaul,Define Objectives - T-00134,blocked!,70.0,2024-11-24,2024-11-27,2025-01-14,,,Strategy & Planning,3,Critical,unexpected scope creep,,2025-06-26,,ASS-004
+T-00135,T-00134,Holiday Marketing Campaign - Social Media Focus,Performance Tracking - T-00135,Review,100.0,2024-11-18,2024-11-23,,,18.1,Marketing & Promotion,5,Low,,,2025-07-05,,ASS-007
+T-00136,T-00135,Website Redesign - User Experience Overhaul,Integrate API - T-00136,Blocked,,2024-10-05,2024-10-12,,,14.8,Development (Frontend),5,Medium,,,2025-06-28,,ASS-003
+T-00137,T-00135,Internal Tool Development - Automation Suite,Unit Testing - T-00137,To Do,0.0,2024-07-25,2024-07-28,2024-09-01,,,QA & Testing,3,Critical,,,2025-06-25,,ASS-003
+T-00138,T-00135,Q3 Product Feature Launch - AI Integration,Release Plan - T-00138,Blocked,64.2,2024-10-19,2024-10-23,2024-12-20,,11.2,Deployment & Release,5,Critical,,,2025-06-23,,ASS-011
+T-00139,,Website Redesign - User Experience Overhaul,API Endpoint Creation - T-00139,In Progress,66.8,2024-09-25,2024-09-30,2024-11-16,,7.4,Development (Backend),2,High,,,2025-06-24,,ASS-007
+T-00140,T-00139,Internal Tool Development - Automation Suite,Ad Copy Draft - T-00140,Review,100.0,2025-02-09,2025-02-10,2025-04-05,2025-04-13,11.7,Content Creation,2,Medium,,Minor Rework,2025-07-01,,ASS-006
+T-00141,T-00140,Holiday Marketing Campaign - Social Media Focus,Data Collection Setup - T-00141,blocked!,74.0,2024-11-05,2024-11-06,2024-11-23,,8.3,Analytics & Reporting,2,Critical,Design Approval Needed,,2025-07-01,,ASS-011
+T-00142,T-00140,Q3 Product Feature Launch - AI Integration,Social Media Post - T-00142,todo,0.0,2024-12-06,2024-12-13,2025-02-04,,0.0,Content Creation,4,Critical,,,2025-07-05,,ASS-007
+T-00143,T-00140,Internal Tool Development - Automation Suite,Market Research - T-00143,Completed,100.0,2024-10-28,2024-10-29,2024-12-19,2024-12-14,13.2,Strategy & Planning,4,Low,,,2025-07-03,,ASS-008
+T-00144,T-00139,Customer Onboarding Flow Optimization,Stakeholder Sync - T-00144,To Do,0.0,2025-02-08,2025-02-14,2025-03-18,,0.0,PMO & Coordination,3,Medium,,,2025-06-30,,ASS-011
+T-00145,T-00144,Internal Tool Development - Automation Suite,Performance Tuning - T-00145,Completed,100.0,2024-09-04,2024-09-09,2024-09-18,2024-09-13,32.8,Development (Backend),5,Medium,,,2025-06-26,,ASS-005
+T-00146,T-00139,Q3 Product Feature Launch - AI Integration,Blog Article - T-00146,blocked!,72.8,2024-11-29,2024-11-29,2025-02-08,,10.3,Content Creation,3,High,,,2025-06-25,T-00131,ASS-008
+T-00147,T-00146,Customer Onboarding Flow Optimization,Training Material - T-00147,To Do,0.0,2024-12-10,2024-12-17,2025-01-24,,0.0,Customer Support Prep,5,Critical,,,2025-06-29,T-00058,ASS-008
+T-00148,T-00146,Internal Tool Development - Automation Suite,Deployment Script - T-00148,Blocked,60.9,2024-08-23,2024-08-25,2024-10-15,,1.0,Deployment & Release,2,High,Data Access Issues,,2025-06-23,T-00106,ASS-008
+T-00149,T-00146,Q3 Product Feature Launch - AI Integration,Post-Launch Monitoring Setup - T-00149,In Progress,85.0,2025-03-05,2025-03-11,2025-04-22,,14.7,Deployment & Release,3,Medium,,,2025-07-02,,ASS-001
+T-00150,T-00146,Q3 Product Feature Launch - AI Integration,Blog Article - T-00150,REVIEW,100.0,2025-01-04,2025-01-08,2025-03-05,,30.8,Content Creation,2,Critical,,,2025-07-02,,ASS-009
+T-00151,,Customer Onboarding Flow Optimization,Market Research - T-00151,Blocked,46.0,2024-11-05,2024-11-11,2025-01-15,,6.2,Strategy & Planning,1,Medium,,,2025-07-01,,ASS-003
+T-00152,T-00151,Customer Onboarding Flow Optimization,Contract Approval - T-00152,In Progress,72.9,2024-12-10,2024-12-17,2025-02-10,,4.0,Legal & Compliance Review,3,low,,,2025-07-06,,ASS-010
+T-00153,T-00152,Website Redesign - User Experience Overhaul,Frontend Bug Fix - T-00153,To Do,0.0,2024-09-08,2024-09-14,2024-10-25,,0.0,Development (Frontend),2,Medium,,,2025-07-07,T-00022,ASS-011
+T-00154,T-00152,Q3 Product Feature Launch - AI Integration,Define Objectives - T-00154,blocked!,62.0,2024-12-24,2024-12-27,2025-01-13,,,Strategy & Planning,1,Medium,,,2025-06-30,,ASS-001
+T-00155,T-00152,Holiday Marketing Campaign - Social Media Focus,Unit Testing - T-00155,In Progress,15.3,2024-11-07,2024-11-14,,,,QA & Testing,1,Low,,,2025-07-06,,ASS-009
+T-00156,T-00152,Website Redesign - User Experience Overhaul,Dashboard Build - T-00156,in progress,28.0,2024-10-15,2024-10-17,2024-10-29,,,Analytics & Reporting,3,Low,,,2025-06-28,,ASS-008
+T-00157,T-00151,Holiday Marketing Campaign - Social Media Focus,Dependency Management - T-00157,Completed,100.0,2025-03-17,2025-03-21,2025-05-18,2025-05-14,19.1,PMO & Coordination,5,Low,,,2025-07-06,,ASS-002
+T-00158,T-00151,Website Redesign - User Experience Overhaul,Budget Allocation - T-00158,Completed,100.0,2024-07-22,2024-07-24,2024-08-11,2024-08-17,33.9,Strategy & Planning,1,High,,Passed,2025-07-01,,ASS-010
+T-00159,T-00158,Website Redesign - User Experience Overhaul,Performance Tuning - T-00159,Review,100.0,2025-01-26,2025-01-29,2025-02-04,,34.6,Development (Backend),1,medium,,Passed,2025-07-02,,ASS-004
+T-00160,,Website Redesign - User Experience Overhaul,Database Schema Update - T-00160,In Progress,30.3,2024-12-17,2024-12-21,2024-12-31,,8.8,Development (Backend),5,High,,,2025-07-02,,ASS-006
+T-00161,T-00160,Customer Onboarding Flow Optimization,Frontend Bug Fix - T-00161,Review,100.0,2024-07-27,2024-08-01,2024-08-23,2024-08-26,21.2,Development (Frontend),2,Low,,,2025-07-04,,ASS-011
+T-00162,T-00161,Customer Onboarding Flow Optimization,FAQ Document - T-00162,Blocked,33.7,2025-04-22,2025-04-28,2025-05-26,,3.2,Customer Support Prep,3,Critical,,,2025-06-29,,ASS-012
+T-00163,T-00160,Q3 Product Feature Launch - AI Integration,Frontend Bug Fix - T-00163,In Progress,58.6,2024-10-21,2024-10-23,2024-12-20,,21.7,Development (Frontend),4,High,,,2025-07-01,,ASS-011
+T-00164,T-00163,Website Redesign - User Experience Overhaul,Performance Tracking - T-00164,Review,100.0,2025-02-28,2025-03-07,2025-04-08,2025-04-05,22.5,Marketing & Promotion,1,High,,Minor Rework,2025-07-06,,ASS-007
+T-00165,T-00163,Customer Onboarding Flow Optimization,Market Research - T-00165,Blocked,21.3,2024-10-11,2024-10-15,2024-12-03,,0.7,Strategy & Planning,1,Low,,,2025-07-02,,ASS-005
+T-00166,T-00163,Internal Tool Development - Automation Suite,Build UI Component - T-00166,To Do,0.0,2025-01-11,2025-01-17,,,,Development (Frontend),4,Critical,,,2025-07-03,,ASS-002
+T-00167,T-00163,Holiday Marketing Campaign - Social Media Focus,Social Media Post - T-00167,In Progress,89.4,2025-04-21,2025-04-26,,,15.8,Content Creation,3,Medium,,,2025-06-30,,ASS-011
+T-00168,T-00160,Internal Tool Development - Automation Suite,Dashboard Build - T-00168,Review,100.0,2024-08-23,2024-08-28,2024-09-21,2024-09-22,,Analytics & Reporting,3,Medium,,,2025-06-30,T-00036,ASS-008
+T-00169,T-00168,Q3 Product Feature Launch - AI Integration,Support Handoff - T-00169,Review,100.0,2024-11-27,2024-12-02,2025-01-15,2025-01-14,32.2,Customer Support Prep,2,Medium,,,2025-06-27,T-00098,ASS-011
+T-00170,T-00168,Customer Onboarding Flow Optimization,Integrate API - T-00170,REVIEW,100.0,2024-12-03,2024-12-09,2025-01-29,,11.8,Development (Frontend),1,High,,Minor Rework,2025-06-28,,ASS-008
+T-00171,T-00160,Internal Tool Development - Automation Suite,API Endpoint Creation - T-00171,In Progress,17.2,2024-09-05,2024-09-05,2024-10-04,,,Development (Backend),4,Medium,,,2025-06-29,,ASS-006
+T-00172,T-00171,Customer Onboarding Flow Optimization,Integration Testing - T-00172,Blocked,,2024-12-21,2024-12-26,2025-03-06,,4.1,QA & Testing,3,Medium,,,2025-06-30,,ASS-011
+T-00173,T-00171,Website Redesign - User Experience Overhaul,User Testing - T-00173,To Do,0.0,2024-07-31,2024-08-01,,,0.0,Design & UX,2,Critical,,,2025-06-23,,ASS-006
+T-00174,T-00171,Holiday Marketing Campaign - Social Media Focus,Blog Article - T-00174,completed.,100.0,2025-04-23,2025-04-23,2025-06-01,2025-05-31,34.3,Content Creation,3,Critical,,,2025-06-29,,ASS-005
+T-00175,,Holiday Marketing Campaign - Social Media Focus,Training Material - T-00175,Completed,100.0,2024-08-30,2024-09-01,2024-09-16,2024-09-23,,Customer Support Prep,2,Critical,,,2025-07-05,,ASS-004
+T-00176,,Customer Onboarding Flow Optimization,Compliance Check - T-00176,todo,0.0,2025-02-02,2025-02-06,2025-04-02,,0.0,Legal & Compliance Review,1,Medium,,,2025-07-06,,ASS-008
+T-00177,T-00176,Holiday Marketing Campaign - Social Media Focus,Integration Testing - T-00177,Completed,100.0,2024-09-07,2024-09-14,2024-10-09,2024-10-10,38.1,QA & Testing,1,high,,Failed QA,2025-07-02,,ASS-009
+T-00178,,Q3 Product Feature Launch - AI Integration,Integrate API - T-00178,Completed,100.0,2025-04-15,2025-04-20,2025-05-08,2025-05-04,26.8,Development (Frontend),5,High,,Minor Rework,2025-06-23,,ASS-007
+T-00179,T-00178,Customer Onboarding Flow Optimization,Data Collection Setup - T-00179,In Progress,,2025-04-11,2025-04-11,2025-05-30,,10.9,Analytics & Reporting,3,Medium,,,2025-06-30,,ASS-002
+T-00180,T-00179,Q3 Product Feature Launch - AI Integration,Define Objectives - T-00180,REVIEW,100.0,2025-03-28,2025-03-28,,,18.4,Strategy & Planning,1,Critical,,,2025-06-27,,ASS-004
+T-00181,T-00178,Website Redesign - User Experience Overhaul,Integration Testing - T-00181,Completed,100.0,2024-10-25,2024-10-31,2024-11-07,2024-11-02,,QA & Testing,5,high,,,2025-06-27,,ASS-003
+T-00182,T-00181,Holiday Marketing Campaign - Social Media Focus,Data Collection Setup - T-00182,Review,100.0,2024-09-18,2024-09-19,2024-10-28,2024-10-27,,Analytics & Reporting,2,High,,,2025-07-03,,ASS-012
+T-00183,,Website Redesign - User Experience Overhaul,Deployment Script - T-00183,Review,,2024-12-06,2024-12-06,2025-01-08,2025-01-11,31.2,Deployment & Release,1,CRITICAL,,Passed,2025-07-07,,ASS-003
+T-00184,T-00183,Internal Tool Development - Automation Suite,Training Material - T-00184,Review,100.0,2024-12-20,2024-12-20,,,25.8,Customer Support Prep,4,Medium,,,2025-06-25,,ASS-008
+T-00185,T-00183,Customer Onboarding Flow Optimization,Contract Approval - T-00185,To Do,0.0,2024-09-24,2024-09-27,2024-10-17,,,Legal & Compliance Review,5,Critical,,,2025-06-25,,ASS-008
+T-00186,T-00185,Internal Tool Development - Automation Suite,FAQ Document - T-00186,REVIEW,100.0,2024-11-17,2024-11-22,2025-01-16,2025-01-20,,Customer Support Prep,3,Medium,,Minor Rework,2025-06-25,T-00139,ASS-002
+T-00187,T-00185,Customer Onboarding Flow Optimization,Data Collection Setup - T-00187,To Do,0.0,2024-11-13,2024-11-15,2024-12-01,,0.0,Analytics & Reporting,2,Medium,,,2025-07-03,,ASS-012
+T-00188,T-00185,Website Redesign - User Experience Overhaul,Dependency Management - T-00188,To Do,0.0,2024-11-30,2024-12-06,2025-01-12,,0.0,PMO & Coordination,5,Low,,,2025-07-02,,ASS-011
+T-00189,T-00183,Customer Onboarding Flow Optimization,Deployment Script - T-00189,REVIEW,100.0,2025-03-10,2025-03-13,2025-03-19,,7.2,Deployment & Release,4,Medium,,,2025-06-23,,ASS-011
+T-00190,T-00189,Customer Onboarding Flow Optimization,Deployment Script - T-00190,Blocked,1.9,2024-11-03,2024-11-07,,,1.9,Deployment & Release,2,Medium,cross-team handoff delay,,2025-06-26,T-00166,ASS-011
+T-00191,T-00189,Website Redesign - User Experience Overhaul,Frontend Bug Fix - T-00191,Blocked,15.4,2024-12-24,2024-12-24,2025-01-25,,4.9,Development (Frontend),4,CRITICAL,Technical Bug Found!,,2025-07-07,T-00143,ASS-006
+T-00192,T-00189,Customer Onboarding Flow Optimization,FAQ Document - T-00192,completed.,100.0,2024-08-26,2024-09-01,2024-10-26,2024-10-28,26.2,Customer Support Prep,1,Medium,,,2025-06-29,T-00109,ASS-001
+T-00193,T-00183,Customer Onboarding Flow Optimization,Contract Approval - T-00193,Completed,100.0,2025-01-17,2025-01-19,2025-02-15,2025-02-18,38.6,Legal & Compliance Review,5,High,,,2025-06-25,,ASS-005
+T-00194,,Website Redesign - User Experience Overhaul,Ad Spend Optimization - T-00194,todo,,2024-08-17,2024-08-22,2024-09-15,,0.0,Marketing & Promotion,1,Low,,,2025-06-28,,ASS-010
+T-00195,T-00194,Website Redesign - User Experience Overhaul,Market Research - T-00195,To Do,0.0,2025-03-07,2025-03-11,2025-03-25,,0.0,Strategy & Planning,5,Low,,,2025-07-02,,ASS-008
+T-00196,T-00195,Holiday Marketing Campaign - Social Media Focus,Dependency Management - T-00196,Review,100.0,2024-10-20,2024-10-26,,,31.9,PMO & Coordination,2,Low,,,2025-06-24,,ASS-007
+T-00197,T-00195,Customer Onboarding Flow Optimization,Release Plan - T-00197,In Progress,100.0,2025-01-23,2025-01-29,2025-02-25,,3.9,Deployment & Release,4,High,,,2025-07-06,,ASS-006
+T-00198,T-00195,Website Redesign - User Experience Overhaul,Database Schema Update - T-00198,Blocked,32.2,2025-04-15,2025-04-17,2025-07-06,,13.8,Development (Backend),4,Critical,,,2025-06-25,,ASS-012
+T-00199,T-00194,Holiday Marketing Campaign - Social Media Focus,Define Objectives - T-00199,In Progress,84.9,2024-09-04,2024-09-10,2024-10-14,,24.9,Strategy & Planning,2,Low,,,2025-07-01,,ASS-007
+T-00200,,Holiday Marketing Campaign - Social Media Focus,Integration Testing - T-00200,Blocked,28.6,2025-04-08,2025-04-08,2025-06-01,,2.4,QA & Testing,4,Low,Technical Bug Found,,2025-06-26,,ASS-012
+T-00201,,Website Redesign - User Experience Overhaul,UAT Coordination - T-00201,To Do,,2024-07-23,2024-07-26,2024-08-25,,0.0,QA & Testing,1,Low,,,2025-06-27,,ASS-011
+T-00202,,Internal Tool Development - Automation Suite,API Endpoint Creation - T-00202,Review,100.0,2025-03-10,2025-03-13,2025-04-17,,28.7,Development (Backend),2,Medium,,Minor Rework,2025-07-05,,ASS-012
+T-00203,,Q3 Product Feature Launch - AI Integration,Training Material - T-00203,In Progress,,2024-10-03,2024-10-04,2024-11-30,,15.5,Customer Support Prep,2,Low,,,2025-06-30,,ASS-009
+T-00204,,Internal Tool Development - Automation Suite,API Endpoint Creation - T-00204,todo,0.0,2025-03-21,2025-03-27,2025-05-05,,0.0,Development (Backend),5,Critical,,,2025-06-25,,ASS-008
+T-00205,T-00204,Holiday Marketing Campaign - Social Media Focus,Data Collection Setup - T-00205,To Do,0.0,2024-08-25,2024-08-25,2024-09-24,,0.0,Analytics & Reporting,1,high,,,2025-06-29,T-00204,ASS-011
+T-00206,T-00204,Q3 Product Feature Launch - AI Integration,User Testing - T-00206,Review,100.0,2024-09-17,2024-09-22,2024-10-01,,22.4,Design & UX,2,Critical,,,2025-06-26,,ASS-005
+T-00207,T-00206,Internal Tool Development - Automation Suite,Campaign Launch - T-00207,In Progress,,2025-01-26,2025-01-29,2025-03-13,,,Marketing & Promotion,3,Medium,,,2025-07-04,,ASS-008
+T-00208,T-00206,Holiday Marketing Campaign - Social Media Focus,FAQ Document - T-00208,Completed,100.0,2024-07-15,2024-07-19,2024-08-31,2024-09-10,5.1,Customer Support Prep,1,medium,,,2025-07-04,,ASS-009
+T-00209,T-00206,Q3 Product Feature Launch - AI Integration,Ad Spend Optimization - T-00209,In Progress,44.9,2024-09-15,2024-09-16,2024-09-28,,4.9,Marketing & Promotion,1,Medium,,,2025-06-29,,ASS-008
+T-00210,T-00204,Internal Tool Development - Automation Suite,Dashboard Build - T-00210,To Do,0.0,2025-03-11,2025-03-17,2025-05-12,,,Analytics & Reporting,3,Critical,,,2025-06-30,,ASS-006
+T-00211,T-00210,Internal Tool Development - Automation Suite,Frontend Bug Fix - T-00211,blocked!,,2024-12-09,2024-12-09,2025-02-27,,3.1,Development (Frontend),3,Critical,Design Approval Needed,,2025-07-05,T-00153,ASS-010
+T-00212,T-00204,Customer Onboarding Flow Optimization,Campaign Launch - T-00212,completed.,100.0,2025-01-27,2025-01-28,2025-02-09,2025-02-13,21.9,Marketing & Promotion,1,CRITICAL,,Failed QA,2025-06-27,T-00088,ASS-005
+T-00213,T-00212,Customer Onboarding Flow Optimization,Frontend Bug Fix - T-00213,Review,100.0,2024-09-19,2024-09-26,2024-10-07,,10.5,Development (Frontend),2,Medium,,,2025-07-06,,ASS-011
+T-00214,T-00212,Q3 Product Feature Launch - AI Integration,Performance Tuning - T-00214,REVIEW,100.0,2025-04-24,2025-04-25,2025-05-01,,6.4,Development (Backend),1,Critical,,,2025-06-23,T-00023,ASS-011
+T-00215,T-00212,Website Redesign - User Experience Overhaul,Performance Tuning - T-00215,To Do,0.0,2024-12-06,2024-12-06,2024-12-28,,0.0,Development (Backend),1,Medium,,,2025-06-25,,ASS-012
+T-00216,,Holiday Marketing Campaign - Social Media Focus,Training Material - T-00216,blocked!,2.7,2025-03-10,2025-03-15,2025-05-24,,10.3,Customer Support Prep,2,High,,,2025-07-07,,ASS-010
+T-00217,T-00216,Customer Onboarding Flow Optimization,Stakeholder Sync - T-00217,To Do,0.0,2024-11-14,2024-11-16,2025-01-10,,0.0,PMO & Coordination,3,low,,,2025-07-04,,ASS-004
+T-00218,T-00217,Internal Tool Development - Automation Suite,Contract Approval - T-00218,Blocked,56.4,2024-11-01,2024-11-03,2025-01-15,,,Legal & Compliance Review,5,Medium,,,2025-06-25,T-00052,ASS-010
+T-00219,T-00217,Website Redesign - User Experience Overhaul,Performance Tuning - T-00219,Review,100.0,2024-11-16,2024-11-22,2025-01-08,2025-01-08,13.2,Development (Backend),4,CRITICAL,,Passed,2025-06-23,,ASS-004
+T-00220,T-00216,Internal Tool Development - Automation Suite,Performance Report - T-00220,Review,100.0,2024-11-07,2024-11-07,2024-12-27,2024-12-27,22.1,Analytics & Reporting,1,Medium,,,2025-06-23,,ASS-012
+T-00221,T-00220,Customer Onboarding Flow Optimization,Unit Testing - T-00221,Completed,100.0,2024-12-14,2024-12-19,2025-02-15,2025-02-20,,QA & Testing,4,High,,,2025-07-07,,ASS-004
+T-00222,T-00216,Holiday Marketing Campaign - Social Media Focus,Deployment Script - T-00222,Blocked,64.2,2025-05-05,2025-05-09,2025-06-02,,4.8,Deployment & Release,5,High,,,2025-07-07,,ASS-001
+T-00223,T-00222,Website Redesign - User Experience Overhaul,Wireframe Creation - T-00223,Review,100.0,2024-08-12,2024-08-15,,2024-10-15,8.5,Design & UX,2,Medium,,,2025-07-03,,ASS-001
+T-00224,T-00222,Website Redesign - User Experience Overhaul,Post-Launch Monitoring Setup - T-00224,To Do,0.0,2025-01-30,2025-02-02,2025-02-17,,0.0,Deployment & Release,2,High,,,2025-06-30,,ASS-007
+T-00225,,Holiday Marketing Campaign - Social Media Focus,Stakeholder Sync - T-00225,To Do,0.0,2025-04-08,2025-04-12,2025-05-10,,0.0,PMO & Coordination,4,Critical,,,2025-07-04,,ASS-004
+T-00226,,Internal Tool Development - Automation Suite,Deployment Script - T-00226,Review,100.0,2024-09-12,2024-09-14,2024-10-20,,24.1,Deployment & Release,2,Medium,,Major Rework,2025-07-06,,ASS-003
+T-00227,,Holiday Marketing Campaign - Social Media Focus,Unit Testing - T-00227,Review,100.0,2024-11-20,2024-11-26,2024-12-20,,28.9,QA & Testing,2,High,,Passed,2025-06-26,,ASS-001
+T-00228,T-00227,Customer Onboarding Flow Optimization,Training Material - T-00228,In Progress,44.1,2024-11-26,2024-12-03,2025-01-30,,,Customer Support Prep,3,Critical,,,2025-07-04,T-00098,ASS-012
+T-00229,T-00228,Website Redesign - User Experience Overhaul,Dashboard Build - T-00229,Blocked,6.0,2024-08-25,2024-08-29,2024-11-02,,13.3,Analytics & Reporting,4,high,,,2025-06-24,,ASS-008
+T-00230,T-00228,Customer Onboarding Flow Optimization,Social Media Post - T-00230,REVIEW,100.0,2024-11-12,2024-11-12,2024-12-01,,34.9,Content Creation,3,Medium,,,2025-06-25,,ASS-004
+T-00231,T-00228,Customer Onboarding Flow Optimization,Deployment Script - T-00231,In Progress,63.8,2024-09-06,2024-09-11,2024-10-05,,13.6,Deployment & Release,2,Low,,,2025-06-30,,ASS-010
+T-00232,T-00227,Internal Tool Development - Automation Suite,Social Media Post - T-00232,REVIEW,100.0,2025-01-08,2025-01-10,2025-01-28,,23.3,Content Creation,5,Low,,,2025-07-02,,ASS-011
+T-00233,T-00227,Q3 Product Feature Launch - AI Integration,Training Material - T-00233,Review,100.0,2025-01-31,2025-02-03,2025-04-01,2025-04-05,32.5,Customer Support Prep,5,Critical,,Passed,2025-06-29,,ASS-006
+T-00234,T-00233,Internal Tool Development - Automation Suite,Dashboard Build - T-00234,Review,100.0,2024-09-28,2024-10-03,2024-10-15,2024-10-15,33.4,Analytics & Reporting,5,Critical,,,2025-06-30,T-00001,ASS-004
+T-00235,T-00233,Q3 Product Feature Launch - AI Integration,Release Plan - T-00235,Completed,100.0,2024-09-03,2024-09-06,2024-09-26,2024-10-05,,Deployment & Release,2,medium,,,2025-06-26,T-00180,ASS-001
+T-00236,T-00233,Customer Onboarding Flow Optimization,Blog Article - T-00236,To Do,0.0,2024-07-29,2024-07-31,2024-08-05,,0.0,Content Creation,2,high,,,2025-07-02,,ASS-009
+T-00237,,Website Redesign - User Experience Overhaul,Training Material - T-00237,in progress,,2024-07-23,2024-07-30,,,5.3,Customer Support Prep,3,Medium,,,2025-07-02,,ASS-011
+T-00238,,Q3 Product Feature Launch - AI Integration,Post-Launch Monitoring Setup - T-00238,To Do,0.0,2024-08-28,2024-08-29,2024-09-03,,,Deployment & Release,5,Medium,,,2025-06-30,,ASS-012
+T-00239,T-00238,Q3 Product Feature Launch - AI Integration,Social Media Post - T-00239,REVIEW,,2025-02-01,2025-02-05,,2025-02-28,10.4,Content Creation,3,medium,,Minor Rework,2025-07-05,,ASS-012
+T-00240,T-00239,Customer Onboarding Flow Optimization,Unit Testing - T-00240,Completed,100.0,2025-03-22,2025-03-25,,2025-04-24,25.8,QA & Testing,1,High,,,2025-06-29,T-00208,ASS-012
+T-00241,T-00239,Q3 Product Feature Launch - AI Integration,Stakeholder Sync - T-00241,REVIEW,,2025-04-13,2025-04-20,2025-05-10,2025-05-08,30.2,PMO & Coordination,5,Medium,,Minor Rework,2025-07-05,,ASS-004
+T-00242,T-00239,Customer Onboarding Flow Optimization,Deployment Script - T-00242,Completed,100.0,2024-11-15,2024-11-17,2024-12-13,2024-12-08,37.9,Deployment & Release,5,High,,,2025-06-29,,ASS-001
+T-00243,T-00239,Internal Tool Development - Automation Suite,FAQ Document - T-00243,Blocked,70.4,2024-10-15,2024-10-19,2024-12-24,,,Customer Support Prep,3,Medium,,,2025-07-07,,ASS-002
+T-00244,T-00238,Website Redesign - User Experience Overhaul,Performance Tuning - T-00244,Completed,100.0,2025-02-22,2025-02-24,2025-03-06,2025-03-03,19.9,Development (Backend),2,low,,Minor Rework,2025-06-23,,ASS-010
+T-00245,T-00244,Q3 Product Feature Launch - AI Integration,Ad Copy Draft - T-00245,completed.,100.0,2025-01-02,2025-01-06,2025-02-03,2025-02-12,28.2,Content Creation,1,Low,,,2025-06-23,T-00201,ASS-001
+T-00246,T-00244,Q3 Product Feature Launch - AI Integration,Performance Report - T-00246,Review,100.0,2024-08-10,2024-08-11,,2024-09-07,33.0,Analytics & Reporting,5,High,,,2025-06-30,,ASS-009
+T-00247,T-00238,Holiday Marketing Campaign - Social Media Focus,API Endpoint Creation - T-00247,Completed,100.0,2025-01-22,2025-01-28,2025-03-06,2025-03-02,,Development (Backend),3,Critical,,Passed,2025-06-29,,ASS-001
+T-00248,T-00238,Holiday Marketing Campaign - Social Media Focus,Ad Copy Draft - T-00248,Blocked,20.1,2024-12-08,2024-12-09,2025-01-29,,1.6,Content Creation,1,Low,,,2025-06-23,T-00007,ASS-006
+T-00249,,Holiday Marketing Campaign - Social Media Focus,Wireframe Creation - T-00249,To Do,0.0,2024-10-26,2024-11-02,2024-11-13,,0.0,Design & UX,3,Critical,,,2025-06-24,,ASS-002
+T-00250,T-00249,Q3 Product Feature Launch - AI Integration,Performance Tuning - T-00250,Blocked,,2025-03-31,2025-04-05,2025-05-25,,4.7,Development (Backend),4,High,Resource Unavailability,,2025-06-24,,ASS-002
+T-00251,T-00249,Customer Onboarding Flow Optimization,Performance Tuning - T-00251,Completed,100.0,2025-03-23,2025-03-24,,2025-04-05,12.8,Development (Backend),3,Critical,,,2025-07-07,,ASS-011
+T-00252,T-00251,Internal Tool Development - Automation Suite,Database Schema Update - T-00252,Review,100.0,2024-08-25,2024-08-28,2024-10-14,2024-10-14,30.8,Development (Backend),3,Medium,,,2025-06-28,,ASS-010
+T-00253,T-00251,Holiday Marketing Campaign - Social Media Focus,Ad Copy Draft - T-00253,To Do,0.0,2024-08-09,2024-08-13,2024-09-15,,0.0,Content Creation,2,Low,,,2025-06-28,T-00012,ASS-009
+T-00254,T-00251,Q3 Product Feature Launch - AI Integration,Compliance Check - T-00254,To Do,0.0,2024-08-18,2024-08-21,2024-10-19,,0.0,Legal & Compliance Review,2,Low,,,2025-06-28,,ASS-004
+T-00255,,Internal Tool Development - Automation Suite,Performance Report - T-00255,To Do,0.0,2025-03-20,2025-03-21,2025-04-05,,0.0,Analytics & Reporting,2,High,,,2025-06-27,,ASS-007
+T-00256,T-00255,Q3 Product Feature Launch - AI Integration,Dashboard Build - T-00256,To Do,0.0,2025-03-25,2025-03-28,2025-05-18,,,Analytics & Reporting,5,Critical,,,2025-07-05,,ASS-001
+T-00257,T-00256,Holiday Marketing Campaign - Social Media Focus,Database Schema Update - T-00257,To Do,0.0,2024-07-21,2024-07-22,,,,Development (Backend),5,Low,,,2025-06-30,,ASS-011
+T-00258,T-00256,Customer Onboarding Flow Optimization,Stakeholder Sync - T-00258,To Do,0.0,2025-01-03,2025-01-03,,,0.0,PMO & Coordination,5,Low,,,2025-07-05,T-00140,ASS-010
+T-00259,T-00255,Q3 Product Feature Launch - AI Integration,Data Collection Setup - T-00259,Review,100.0,2024-09-27,2024-09-28,2024-10-17,2024-10-12,12.3,Analytics & Reporting,2,Medium,,,2025-06-26,,ASS-001
+T-00260,T-00259,Q3 Product Feature Launch - AI Integration,Market Research - T-00260,In Progress,76.4,2024-08-25,2024-08-26,2024-09-07,,24.3,Strategy & Planning,5,Medium,,,2025-07-01,T-00167,ASS-010
+T-00261,T-00259,Customer Onboarding Flow Optimization,UAT Coordination - T-00261,Blocked,27.0,2024-11-27,2024-11-27,,,,QA & Testing,4,High,DataAccessIssues,,2025-07-01,,ASS-005
+T-00262,T-00255,Internal Tool Development - Automation Suite,Performance Tracking - T-00262,Blocked,38.6,2024-11-15,2024-11-18,,,6.4,Marketing & Promotion,1,Medium,,,2025-06-28,,ASS-010
+T-00263,T-00262,Q3 Product Feature Launch - AI Integration,FAQ Document - T-00263,REVIEW,100.0,2025-04-11,2025-04-13,2025-05-04,2025-05-14,33.5,Customer Support Prep,2,Critical,,Failed QA,2025-06-26,,ASS-005
+T-00264,T-00262,Website Redesign - User Experience Overhaul,User Testing - T-00264,completed.,100.0,2024-09-18,2024-09-24,2024-10-20,2024-10-23,29.1,Design & UX,1,Medium,,,2025-06-27,,ASS-002
+T-00265,T-00255,Customer Onboarding Flow Optimization,Wireframe Creation - T-00265,Completed,100.0,2024-07-20,2024-07-22,2024-09-12,2024-09-10,22.7,Design & UX,5,High,,Minor Rework,2025-06-23,,ASS-001
+T-00266,T-00265,Internal Tool Development - Automation Suite,Data Collection Setup - T-00266,REVIEW,100.0,2024-10-29,2024-11-05,2024-12-13,2024-12-08,6.2,Analytics & Reporting,1,High,,,2025-06-24,,ASS-007
+T-00267,,Customer Onboarding Flow Optimization,Mockup Design - T-00267,Blocked,52.1,2025-03-04,2025-03-06,2025-04-08,,7.4,Design & UX,3,Critical,,,2025-07-03,,ASS-008
+T-00268,,Q3 Product Feature Launch - AI Integration,Integration Testing - T-00268,In Progress,19.2,2024-07-14,2024-07-16,2024-07-29,,9.9,QA & Testing,2,High,,,2025-07-04,,ASS-005
+T-00269,,Internal Tool Development - Automation Suite,API Endpoint Creation - T-00269,Completed,100.0,2025-02-16,2025-02-21,2025-02-26,2025-03-05,,Development (Backend),5,medium,,,2025-07-02,,ASS-009
+T-00270,T-00269,Website Redesign - User Experience Overhaul,Ad Spend Optimization - T-00270,Review,100.0,2025-03-20,2025-03-26,2025-05-09,2025-05-10,,Marketing & Promotion,4,Medium,,,2025-07-06,,ASS-001
+T-00271,T-00270,Customer Onboarding Flow Optimization,Performance Tracking - T-00271,Completed,100.0,2025-02-27,2025-03-05,,2025-04-21,,Marketing & Promotion,1,Critical,,Minor Rework,2025-06-25,,ASS-012
+T-00272,T-00269,Customer Onboarding Flow Optimization,Campaign Launch - T-00272,Completed,100.0,2025-03-31,2025-04-05,2025-04-10,2025-04-12,28.7,Marketing & Promotion,1,High,,Minor Rework,2025-07-02,,ASS-012
+T-00273,T-00269,Q3 Product Feature Launch - AI Integration,FAQ Document - T-00273,Review,100.0,2025-01-24,2025-01-26,2025-02-28,,12.1,Customer Support Prep,3,Critical,,Passed,2025-07-02,,ASS-012
