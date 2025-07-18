@@ -50,7 +50,7 @@ This dashboard utilizes machine learning to forecast which tasks are most likely
 - Insights into feature importance (e.g., ```impact of days_since_last_update```, ```percentage_completion```).
 
 ![Image_Alt](https://github.com/KanikaGaikwad/project-performance-predictive-risk/blob/8c5118978bef56b12b5b21dcc7231ad0fa6cee6f/Predictive%20Dashboard%201.png)
-![Image_Alt](https://github.com/KanikaGaikwad/project-performance-predictive-risk/blob/8c5118978bef56b12b5b21dcc7231ad0fa6cee6f/Predictive%20Dashboard%202.png)
+![Image_Alt](https://github.com/KanikaGaikwad/project-performance-predictive-risk/blob/0f440a7edf4451138d15c8637a3d768689b0baca/Predictive%20dashboard%203.png)
 
 ## ⚙️ Methodology & Technologies
 This project follows a robust data science lifecycle, from data acquisition and cleaning to predictive modeling and interactive visualization.
